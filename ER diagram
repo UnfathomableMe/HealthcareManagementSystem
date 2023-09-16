@@ -1,1 +1,41 @@
+Database Scope :-
+The database's goal is to give hospitals a patient-centered healthcare system that makes service monitoring and improvement easier. We maintain accurate, thorough, and up-to-date information about patients through our database.Make patient appointment records, vital signs captured and prescription details easily accessible for better coordinated, effective care. Assist doctors to maintain symptoms list, diagnoses for patients and associated medicines prescribed to the patient for their betterment, lowering medical errors, and delivering safe care. Help doctor’s providers achieve their financial objectives and increase efficiency. Reduce expenses through reducing paperwork, enhancing safety, eliminating redundant testing, and enhancing health.
 
+
+Business Problems:-
+This database would intend to solve following problems:-
+● Provide information required for better assistance of the patient( for example :- maintaining emergency contact information, or list of experienced symptoms and derived diagnosis, prescriptions medicines)
+● Provide information to doctors to help them improve patient outcomes depending on their demographic (e.g., to target particular market niches like geographic areas that can have some particular disease, populations based on age or gender, or other demographic-based campaigns).
+● Streamline the process of assigning diagnoses and medicines to patients to help prevent medical mistakes and deliver safer treatment.
+● Keeping track of each appointment session of patients with billing amount and amount of medicines so the doctor, insurance provider and patient can access their medical expenses.
+
+
+ Business Rules:
+● There could be one or more patient appointments for every patient.
+● Each doctor is present for at least one patient appointment.
+● Each doctor would write zero or more prescriptions.
+● There is a billing history for every patient appointment.
+● Every patient visit results in another recording of vital signs, diagnosis and prescription.
+● Only specialized doctors(designated) can diagnose a patient.
+● Every patient has only one medical insurance provider with a specific healthcare welfare
+plan.
+● Every patient visit can result in one or more diagnoses.
+● Every patient interaction has a record of one or more vital signs.
+● Every patient encounters at least one symptom.
+
+
+Design Rules :
+● Utilize the Crow's Foot Notation.
+● Place a one next to the field where the line starts to indicate which table is on the one side
+of the relationship.
+● Put a crow's foot next to the field where the line stops to indicate which table is on the
+many sides of the relationship.
+● Where necessary, indicate the primary key fields by placing a PK beside them.
+● Wherever necessary have indicated the foreign key fields by placing a FK beside them.
+● Associative entities are represented by rounded rectangles and have keys and some
+related attributes.
+● To illustrate the connections between each table, draw a line between its fields.
+● The fields in each table that are utilized to create the relationship should be directly
+referenced in this line.
+
+ 
